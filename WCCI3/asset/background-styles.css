@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	margin: 100px;
+	padding: 100px;
+    
+    
+}
+:navbar {
+	--light: #0f0909;
+	--dark: #070a0a;
+}
+.life {
+	background-color: #ffb;
+}
+.navbar{
+	border-radius: 7px;
+	color: #5e0101;
+	font: 600 18px 'Open Sans';
+	padding: 11px;
+}
+.skill:nth-child(even):nth-child(even) {
+	background-color: var(--dark);
+	color: var(--light);
+    padding: 1px;
+}
+.hobbies::nth-child(odd) {
+	background-color: var(--light);
+	color: var(--dark);
+}

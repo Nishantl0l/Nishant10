@@ -1,0 +1,68 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    column-gap: 5%;
+    color: rgb(68, 200, 233);
+    gap: 1% 1%;
+    background-image:url(./1000_F_217241637_wdtH1WetyT1joXkiWz57GR0LiB6LxVij.jpg)
+
+}
+.life{
+    display: grid;
+    column-gap: 5%;
+    height: 10vh;
+    grid-template-columns: 10fr;
+    grid-template-rows: (4)1fr;
+    width: 100%;
+    row-gap: 3px;
+    grid-area: auto;
+    grid-template-areas:  100%;
+    border: 10%;
+    gap: 1px;
+    align-items: center;
+    padding: auto;
+    color: rgb(236, 240, 17);
+    background-color: rgb(219, 114, 114);
+}
+.skill{
+    display: grid;
+    column-gap: 5%;
+    margin: 0.1rem;
+    grid-template-columns: 10fr;
+    grid-template-rows: (4)1fr;
+    width: 100%;
+    row-gap: 3px;
+    grid-area: auto;
+    grid-template-areas:  100%;
+    border: 10%;
+    gap: 1px;
+    align-items: center;
+    padding: auto;
+    color: rgb(189, 228, 153);
+    background-color: rgb(242, 246, 248);
+}
+.Hobbies{
+    display: grid;
+    height: 39vh;
+    margin: 0.2rem;
+    column-gap: 5%;
+    grid-template-columns: 10fr;
+    grid-template-rows: (4)1fr;
+    height: 11vh;
+    grid-template-areas:  100%;
+    color: rgb(26, 144, 160);
+    background-color: rgb(238, 200, 200);
+}
+.forest {
+    width: 100%;
+}
+.Apple latest Phone {
+    width: 100%;
+}
+
